@@ -1,0 +1,67 @@
+    //step 1: doctor requests plaintext data pd's data structure
+    struct requestPd{//write data execution
+        uint  id;          // request data ID
+        address _address;  // address of requestor
+        bytes32 pk;        // public key of requestor
+        string req;        // request information
+    }
+
+    //step 2: petient authorizes the request from requestor
+    struct authorizeForRrequestPd{//write data execution
+        uint  id;          // permission ID
+        bytes signature;  // signatures
+    }
+
+    //step 3: consensus nodes download data
+    struct getPkReq{//read data execution
+        uint  id;          // plaintext data ID
+        string req;        // request information
+    }
+
+    //step 4: consensus nodes extract data from the permissioned blockchain 1
+    struct extractdata{//read data execution
+        uint  id;          // data ID
+        string data;          // extracted data from the permissioned blockchain 1
+    }
+
+
+    //step 2.1: petient authorizes the request from requestor in the form of signature, and encrypts this siganture using pk from requestor
+    struct authorizeForRrequestCd{//write data execution
+        uint  id;          // permission ID
+        bytes encryptedSignature;  // ciphertext associated to a signature
+    }
+
+    //step 3.1: consensus nodes download data
+    struct getencryptedSignatureReq{//write data execution
+        uint  id;                  // data ID
+        bytes encryptedSignature;  // ciphertext associated to a signature
+        string req;                // the request from requestor
+    }
+
+
+    //step 4: consensus nodes extract data from permissioned blockchain 1
+    struct extractdata{//read data execution
+        uint  id;          // data ID
+        string _data;          // extracted data
+    }
+
+    //step 6: doctor requests ciphertext data cd's data structure in the second round
+    struct requestCdSecondRound{//write data execution
+        uint  id;          // request data ID
+        address _address;  // address of requestor
+        string req;        // request information
+    }
+
+    //step 7: petient generates the second signature
+    struct generateSecondSignature{//write data execution
+        uint  id;          // permission ID
+        bytes signature;  // the second signature
+    }
+
+    //step 8: Consensus nodes download the second signature
+    struct getSecondSignature{//read data execution
+        uint  id;          // permission ID
+        bytes signature;  // the second signature
+    }
+    
+
