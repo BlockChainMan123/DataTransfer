@@ -1,0 +1,25 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "1Qvzfi4TS5Eu1xoqh3tsowA1J50=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "681ffa848bae8d0d7b1a452963c0705b132308f7",
+			"revisionTime": "2020-03-11T11:32:36Z"
+		},
+		{
+			"checksumSHA1": "42LrKpuncrrYk5sVqUdW5FEs/HQ=",
+			"path": "github.com/gorilla/handlers",
+			"revision": "f08afc1876ad882db8074bcb8a4cc96107d3a5f4",
+			"revisionTime": "2020-01-05T22:28:52Z"
+		},
+		{
+			"checksumSHA1": "hHOpK73BJjC7dtbfNfKsceSZi9o=",
+			"path": "github.com/gorilla/mux",
+			"revision": "75dcda0896e109a2a22c9315bca3bb21b87b2ba5",
+			"revisionTime": "2020-01-12T19:17:43Z"
+		}
+	],
+	"rootPath": "github.com/donation"
+}
