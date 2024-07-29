@@ -3,7 +3,7 @@
 | name       | Clarification                  |
 | --------------- | ---------------------- |
 |ISE	| The implementation of ISE scheme is presented in the folder of ISE|
-| Hyperledger_Extract | The implementation of the extract phase of our DataFly is presented in extractPhase. This folder contains all executable code for both plaintext and ciphertext read and write operations in Hyperledger Fabric, including the chaincode layer, SDK-go layer, API layer, and so on.|
+| Hyperledger_Extract | The implementation of the extract phase of our DataFly is presented in Hyperledger_Extract. This folder contains all executable code for both plaintext and ciphertext read and write operations in Hyperledger Fabric, including the chaincode layer, SDK-go layer, API layer, and so on.|
 | Pri-ETH_Transfer_Load   |  The implementation of the load phase of our DataFly is presented in the folder of Pri-ETH_Transfer_Load|
 
 
