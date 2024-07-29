@@ -2,9 +2,9 @@
 ## Code directory structure
 | name       | Clarification                  |
 | --------------- | ---------------------- |
-|main.cpp	| The implementation of ISE scheme is presented in main.cpp|
-| extractPhase | The implementation of the extract phase of our DataFly is presented in extractPhase. This folder contains all executable code for both plaintext and ciphertext read and write operations in Hyperledger Fabric, including the chaincode layer, SDK-go layer, API layer, and so on.|
-| loadPhase.sol   |  The implementation of the load phase of our DataFly is presented in loadPhase.sol|
+|ISE	| The implementation of ISE scheme is presented in ISE.cpp|
+| Hyperledger_Extract | The implementation of the extract phase of our DataFly is presented in extractPhase. This folder contains all executable code for both plaintext and ciphertext read and write operations in Hyperledger Fabric, including the chaincode layer, SDK-go layer, API layer, and so on.|
+| Pri-ETH_Transfer_Load   |  The implementation of the load phase of our DataFly is presented in the folder of Pri-ETH_Transger_Load|
 
 
 ### Introduction to extractPhase
